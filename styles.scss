@@ -1,9 +1,13 @@
+body{
+  width: 800px;
+}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #fff;
+  margin-bottom: 100px;
 }
 
 .logo_brand {
@@ -19,6 +23,7 @@ header {
 
 .button__nav--links li {
   margin-right: 20px;
+  align-self: center;
 }
 
 .button__nav--links select {
@@ -36,15 +41,26 @@ header {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .button__buy button:hover {
   background-color: #e55c00;
 }
+.second__container{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+
+}
 .second__container img{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 20%;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 30px;
 }
 .ui__button{
   padding: 10px 20px;
@@ -53,4 +69,20 @@ header {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer; 
+  background-color: #e55c00;
+  margin-right: 80px;
+}
+.principal__container{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+.pet__posibilities{
+  color: #e55c00;
+}
+.ui__message{
+ font-size: 34px; 
 }
